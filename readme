@@ -1,0 +1,10 @@
+dissecting NL BAG 2 in .CSV files for laoding in a SQL server database
+
+You'll need to read end edit the powershell script to get a CSV for each of the filetypes.
+Script standardises the CSV of all 7 object types VBO, STA, LIG, PND, NUM, OPR, and WPL
+
+Import in SQL assumes a database BAG and you'll need to put the directory with the 7 CSV files in the script.
+
+T-SQL scripts imports, creates synonyms to current import, and changes view with linked files to current import.
+
+the column 'identificatie' will later be used for WOZ extracts.
