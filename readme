@@ -1,8 +1,8 @@
-dissecting NL BAG 2 in .CSV files for laoding in a SQL server database
+dissecting NL BAG 2 in .CSV files for loading in a SQL server database
 
 Decided to dissect BAG .XMLs in Powershell. Loading directly in SQL proved far to slow; dissecting + loading CSVs reasonably fast.
 
-You'll need to read end edit the powershell script to get a CSV for each of the filetypes.
+You'll need to read and edit the powershell script to get a CSV for each of the filetypes.
 Script standardises the CSV of all 7 object types VBO, STA, LIG, PND, NUM, OPR, and WPL
 
 Import in SQL assumes a database BAG and you'll need to put the directory with the 7 CSV files in the script.
