@@ -1,4 +1,4 @@
-USE WOZ;
+USE BAG;
 GO
 
 DECLARE @sql varchar(max) ='';
